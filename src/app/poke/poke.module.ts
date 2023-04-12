@@ -9,7 +9,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-
+import { NgOptimizedImage } from '@angular/common';
 
 
 @NgModule({
@@ -25,7 +25,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatGridListModule,
     MatCardModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    NgOptimizedImage
   ],
   exports: [
     GridComponent,
