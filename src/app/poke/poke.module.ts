@@ -31,7 +31,8 @@ import { NgOptimizedImage } from '@angular/common';
   exports: [
     GridComponent,
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    MatToolbarModule
   ]
 })
 export class PokeModule { }
