@@ -10,11 +10,11 @@ export class PokeService {
 
   private baseUrl = "https://pokeapi.co/api/v2/"
 
-  getList(page: number = 139){
+  getList(page: number = 0){
     return this.http.get(`${this.baseUrl}pokemon/`, 
     {params: {
       "offset": page,
-      "limit": 11
+      "limit": 8
     }});
   }
 
